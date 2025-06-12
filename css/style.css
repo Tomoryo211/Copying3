@@ -1,0 +1,110 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  color: #383e45;
+  font-size: 0.9rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-title {
+  line-height: 1px;
+  width: 120px;
+}
+.site-title a {
+  display: block;
+}
+
+.section-title {
+  display: inline-block;
+  margin-bottom: 60px;
+  font-size: 2rem;
+  border-bottom: #24292e solid 1px;
+}
+
+.content-title {
+  font-size: 1rem;
+  margin: 10px 0;
+}
+
+.wrapper {
+  max-width: 960px;
+  text-align: center;
+  margin: 0 auto 100px;
+  padding: 0 4%;
+}
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+#header ul {
+  display: flex;
+  padding: 10px 0;
+}
+#header li {
+  margin-left: 30px;
+}
+#header li a {
+  color: #24292e;
+}
+#header li :hover {
+  opacity: 0.5;
+}
+
+#mainvisual {
+  margin-bottom: 80px;
+}
+#mainvisual img {
+  width: 100%;
+  max-width: 1920px;
+  height: 600px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+#About .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#About img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-right: 40px;
+}
+#About .text {
+  text-align: left;
+}
+
+#Bicycle ul {
+  display: flex;
+  justify-content: space-between;
+}
+#Bicycle li {
+  width: 35%;
+}
+#Bicycle img {
+  width: 90%;
+  height: 70%;
+}
+
+#footer {
+  text-align: center;
+  font-size: 0.5rem;
+}/*# sourceMappingURL=style.css.map */
