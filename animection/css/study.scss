@@ -1,9 +1,33 @@
 html{
     font-size: 100%;
 }
+img{
+    width: 20%;
+}
 #header{
     h1{
         font-size: 50px;
         text-align: center;
+    }
+}
+.none{
+    p{
+        text-align: center;
+        font-size: 30px;
+    }
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    .card{
+        padding: 8px;
+        opacity: 0;
+        transform: translateX(100%);
+        transition: all 0.4s;
+        &.active{
+            opacity: 1;
+            transform: translateX(0);
+        }
     }
 }

@@ -1,2 +1,2 @@
-html{font-size:100%}#header h1{font-size:50px;text-align:center}
+html{font-size:100%}img{width:20%}#header h1{font-size:50px;text-align:center}.none p{text-align:center;font-size:30px}.container{display:flex;flex-direction:column;gap:20px}.container .card{padding:8px;opacity:0;transform:translateX(100%);transition:all .4s}.container .card.active{opacity:1;transform:translateX(0)}
 /*# sourceMappingURL=study.min.css.map */
