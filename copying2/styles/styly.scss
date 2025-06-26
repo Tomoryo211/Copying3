@@ -2,14 +2,14 @@ html{
     font-size: 100%;
 }
 body{
-    font-size: 0.5rem;
+    font-size: 0.9rem;
     line-height: 1.7;
 }
 a{
     text-decoration: none;
 }
 img{
-    width: 100%;
+    max-width: 100%;
 }
 li{
     list-style: none;
@@ -26,7 +26,7 @@ li{
 }
 .secd_title {
     width: 100%;
-    color: #fff;
+    color: #fcfcfc;
     text-align: center;
     font-size: 4.5rem;
     filter: drop-shadow(1px 1px 10px #c0c0c0);  //ドロップシャドウを設定
@@ -38,13 +38,15 @@ li{
     font-size: 2.5rem;
     display: inline-block;
     border-bottom: solid 6px #e03131;
-    margin-bottom: 70px;
+    margin-bottom: 80px;
 }
-/*「background-attachment: fixed;」で背景を固定する*/
 .fixed{
     height: 300px;
-    background-attachment: fixed;
-    background-size: cover;
+    background-attachment: fixed; // 背景のピューポートに対する相対位置で固定する
+    // ビューポートとはデバイスやコンテンツ表示領域を設定するためのHTML毒性
+    // 表示されているコンピューター画像の中の多角形の領域
+
+    background-size: cover;  //背景画像を要素の背景全体に表示させる
     background-position: center;
 }
 
@@ -57,12 +59,12 @@ li{
 
 #header{
     width: 100%;
-    min-width: 100vh;  // 要素の幅の最小値を100%に指定
+    min-height: 100vh; // 要素の幅の最小値を100%に指定
     background-image: url(../img/mainvisual.jpg);
     background-size: cover;
     background-position: center top;
-    background-repeat: no-repeat;
-    padding: 20px 40px;
+    background-repeat: no-repeat;  // 背景を繰り返さないように設定
+    padding: 20px 5px;
     position: relative;
     nav{
         ul{
@@ -143,7 +145,7 @@ li{
         display: inline-block;
         color: #030303;
         padding: 0;
-        cursor: pointer;
+        cursor: pointer;  // マウスカーソルの形状を手を指すアイコンにする
         transition: all 0.3s ease;
         position: relative;
         span{

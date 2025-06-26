@@ -1,0 +1,43 @@
+html {
+  font-size: 100%;
+}
+
+body {
+  background-color: #e6e2d7;
+  color: #000;
+  font-family: "Noto Serif JP", serif;
+}
+
+a {
+  color: #fcfcfc;
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+.site_title {
+  line-height: 3px;
+  margin-left: 60px;
+}
+.site_title a {
+  display: block;
+}
+.site_title img {
+  width: 40px;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/*# sourceMappingURL=sytle.css.map */

@@ -1,10 +1,9 @@
-@charset "UTF-8";
 html {
   font-size: 100%;
 }
 
 body {
-  font-size: 0.5rem;
+  font-size: 0.9rem;
   line-height: 1.7;
 }
 
@@ -13,7 +12,7 @@ a {
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
 }
 
 li {
@@ -32,7 +31,7 @@ li {
 
 .secd_title {
   width: 100%;
-  color: #fff;
+  color: #fcfcfc;
   text-align: center;
   font-size: 4.5rem;
   filter: drop-shadow(1px 1px 10px #c0c0c0);
@@ -44,10 +43,9 @@ li {
   font-size: 2.5rem;
   display: inline-block;
   border-bottom: solid 6px #e03131;
-  margin-bottom: 70px;
+  margin-bottom: 80px;
 }
 
-/*「background-attachment: fixed;」で背景を固定する*/
 .fixed {
   height: 300px;
   background-attachment: fixed;
@@ -64,12 +62,12 @@ li {
 
 #header {
   width: 100%;
-  min-width: 100vh;
+  min-height: 100vh;
   background-image: url(../img/mainvisual.jpg);
   background-size: cover;
   background-position: center top;
   background-repeat: no-repeat;
-  padding: 20px 40px;
+  padding: 20px 5px;
   position: relative;
 }
 #header nav ul {
