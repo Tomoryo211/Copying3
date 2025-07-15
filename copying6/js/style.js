@@ -1,11 +1,9 @@
-
-
 const textInput = document.getElementById("text-input");
-const todoList = document.getElementById("TodoList")
+const todoList = document.getElementById("TodoList");
 
-textInput.addEventListener("keydown",e => {
+textInput.addEventListener("keydown", e => {
     const text = textInput.value.trim();
-    if(text === " " || e.key !== "Enter"){
+    if (text === "" || e.key !== "Enter") {
         return;
     }
 
@@ -20,13 +18,13 @@ textInput.addEventListener("keydown",e => {
     button.textContent = "削除";
     button.type = "button";
     button.classList.add("delete_button");
-    button.addEventListener("click",e => {
-        TodoList.removeChild(e.target.closest("li"));
-    })
+    button.addEventListener("click", e => {
+        todoList.removeChild(e.target.closest("li"));
+    });
 
     li.appendChild(span);
     li.appendChild(button);
-    TodoList.appendChild(li);
+    todoList.appendChild(li);
 
     textInput.value = "";
 });
