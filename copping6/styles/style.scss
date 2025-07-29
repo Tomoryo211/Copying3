@@ -1,3 +1,37 @@
-html{
-    max-width: 540px;
+@use"../styles/vars.scss";
+body{
+    background: vars.$whilecolor;
+    color: vars.$blackcolor;
+}
+.dark_mode{
+    background: vars.$blackcolor !important; // !importantをつけることで優先度を高くすることができる
+    color: vars.$whilecolor !important;
+}
+.header{
+    margin: auto;
+    width: 80%;
+    height: 10vh;
+    padding: 0.5rem 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    .moon{
+        font-size: 30px;
+        cursor: pointer;
+    }
+}
+main{
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: -1;
+    h1{
+        font-size: 5rem;
+        span{
+            color: tomato;
+        }
+    }
 }

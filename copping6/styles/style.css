@@ -1,4 +1,40 @@
-html {
-  max-width: 540px;
+body {
+  background: #fcfcfc;
+  color: #050505;
+}
+
+.dark_mode {
+  background: #050505 !important;
+  color: #fcfcfc !important;
+}
+
+.header {
+  margin: auto;
+  width: 80%;
+  height: 10vh;
+  padding: 0.5rem 4rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header .moon {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+main {
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: -1;
+}
+main h1 {
+  font-size: 5rem;
+}
+main h1 span {
+  color: tomato;
 }
 /*# sourceMappingURL=style.css.map */
