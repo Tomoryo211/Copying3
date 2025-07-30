@@ -1,0 +1,16 @@
+html {
+  font-size: 62.5%;
+  background: fixed;
+  background: black;
+}
+
+body {
+  background-image: url("../img/background.jpeg");
+}
+
+#header {
+  color: #fcfcfc;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=sytle.css.map */
