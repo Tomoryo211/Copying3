@@ -1,2 +1,2 @@
-html{font-size:62.5%;background:fixed;background:#000}body{background-image:url("../img/background.jpeg");background-repeat:repeat}#header{color:#fcfcfc;font-size:20px}
+html{font-size:62.5%;background:fixed;background:#000;background-image:url("../img/background.jpeg")}#header{font-size:20px}#header ul{color:#fcfcfc;background:blue}#header ul li{margin-top:25px}
 /*# sourceMappingURL=style.min.css.map */

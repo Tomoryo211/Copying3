@@ -2,13 +2,16 @@ html{
     font-size: 62.5%;
     background: fixed;
     background: black;
-}
-body{
     background-image: url("../img/background.jpeg");
-    background-repeat: repeat;
-
 }
+
 #header{
-    color: #fcfcfc;
     font-size: 20px;
+    ul{
+        color: #fcfcfc;
+        background: blue;
+        li{
+            margin-top: 25px;
+        }
+    }
 }
