@@ -8,11 +8,19 @@ html {
 #header {
   font-size: 20px;
 }
-#header ul {
-  color: #fcfcfc;
-  background: blue;
+#header .gnav {
+  background-color: blue;
 }
-#header ul li {
+#header .gnav ul {
+  color: #fcfcfc;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+#header .gnav ul li {
   margin-top: 25px;
+}
+#header .webstore {
+  font-size: 10px;
 }
 /*# sourceMappingURL=style.css.map */
