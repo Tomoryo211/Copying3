@@ -5,21 +5,19 @@ html{
     background-image: url("../img/background.jpeg");
 }
 
-#header {
+#header{
     font-size: 20px;
-    .gnav {
-    background-color: blue; // ← nav部分の背景色
-    ul {
+    ul{
         color: #fcfcfc;
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        li {
+        background: blue;
+        li{
             margin-top: 25px;
+            list-style: none;
         }
     }
-    }
-    .webstore {
-    font-size: 10px;
+    .webstore{
+        font-size: 10px;
+        display: flex;
+        justify-content: left;
     }
 }
