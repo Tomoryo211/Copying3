@@ -1,61 +1,24 @@
-body {
-  font-family: "Arial", sans-serif;
-  margin: 0;
-  background: #e0f4ff;
+html {
+  font-size: 62.5%;
+  background: fixed;
+  background: black;
+  background-image: url("../img/background.jpeg");
 }
 
 #header {
-  padding: 20px;
+  font-size: 20px;
 }
-#header .gnav ul {
+#header ul {
+  color: #fcfcfc;
+  background: blue;
+}
+#header ul li {
+  margin-top: 25px;
   list-style: none;
+}
+#header .webstore {
+  font-size: 10px;
   display: flex;
-  gap: 15px;
-  padding: 0;
-}
-#header .webstore-link {
-  text-decoration: none;
-}
-#header .webstore-link .webstore {
-  background: white;
-  border-radius: 12px;
-  padding: 10px 16px;
-  display: flex;
-  align-items: center;
-  gap: 12px;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  transition: transform 0.2s ease;
-}
-#header .webstore-link .webstore:hover {
-  transform: scale(1.02);
-}
-#header .webstore-link .webstore .webstore-text p {
-  margin: 0;
-  line-height: 1;
-}
-#header .webstore-link .webstore .webstore-text .cygames {
-  font-weight: bold;
-  font-size: 14px;
-}
-#header .webstore-link .webstore .webstore-text .webstore-title {
-  font-weight: bold;
-  font-size: 18px;
-  background: linear-gradient(to right, #00c2ff, #ff00d4);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-#header .webstore-link .webstore .webstore-icon {
-  border-radius: 8px;
-}
-#header .webstore-link .webstore .webstore-desc {
-  font-size: 13px;
-  color: #333;
-  margin: 0;
-}
-#header .webstore-link .webstore .webstore-desc span {
-  margin-left: 5px;
+  justify-content: left;
 }
 /*# sourceMappingURL=style.css.map */

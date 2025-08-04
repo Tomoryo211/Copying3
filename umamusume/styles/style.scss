@@ -1,72 +1,23 @@
-    body {
-    font-family: 'Arial', sans-serif;
-    margin: 0;
-    background: #e0f4ff;
+html{
+    font-size: 62.5%;
+    background: fixed;
+    background: black;
+    background-image: url("../img/background.jpeg");
+}
+
+#header{
+    font-size: 20px;
+    ul{
+        color: #fcfcfc;
+        background: blue;
+        li{
+            margin-top: 25px;
+            list-style: none;
+        }
     }
-
-    #header {
-    padding: 20px;
-
-    .gnav {
-        ul {
-        list-style: none;
+    .webstore{
+        font-size: 10px;
         display: flex;
-        gap: 15px;
-        padding: 0;
-        }
+        justify-content: left;
     }
-
-    .webstore-link {
-        text-decoration: none;
-
-        .webstore {
-        background: white;
-        border-radius: 12px;
-        padding: 10px 16px;
-        display: flex;
-        align-items: center;
-        gap: 12px;
-        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
-        width: fit-content;
-        transition: transform 0.2s ease;
-
-        &:hover {
-            transform: scale(1.02);
-        }
-
-        .webstore-text {
-            p {
-            margin: 0;
-            line-height: 1;
-            }
-
-            .cygames {
-            font-weight: bold;
-            font-size: 14px;
-            }
-
-            .webstore-title {
-            font-weight: bold;
-            font-size: 18px;
-            background: linear-gradient(to right, #00c2ff, #ff00d4);
-            -webkit-background-clip: text;
-            -webkit-text-fill-color: transparent;
-            }
-        }
-
-        .webstore-icon {
-            border-radius: 8px;
-        }
-
-        .webstore-desc {
-            font-size: 13px;
-            color: #333;
-            margin: 0;
-
-            span {
-            margin-left: 5px;
-            }
-        }
-        }
-    }
-    }
+}
